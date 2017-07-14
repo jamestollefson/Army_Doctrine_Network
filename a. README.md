@@ -52,4 +52,6 @@ since 2012.
 word count.py: Calculates how long it would take an average reader to read all of the Army's doctrine. Interested parties
 should note that the total number of documents (331) that this code uses to make these calculations does not include a 
 significant number of classified or otherwise generally unavailable publications.
+
+I have also included all the visualizations and most of the .csv files that were outputs of this code. Since I am not providing the actual references that you must iterate over to run this code yourself, I figure I am obliged to at least provide the final products.
             
