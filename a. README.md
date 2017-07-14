@@ -1,19 +1,22 @@
 # Army_Doctrine_Network
 Network analysis of Army doctrine as of June 2017
 
-This project examines the U.S. Army's doctrinal corpus as of June 2017. The main point of this project
+This project examines the U.S. Army's doctrinal corpus as of May 2017. The main point of this project
 is to iterate through .txt versions of all the Army's doctrinal texts, pull out and store every reference in each
 document to any other doctrinal publication, and then build a visualization of a multi-directional network
 graph using that information. This allows us to examine both the overall distribution of certain network traits
 (e.g. centrality, degree, clustering) and draw conclusions about the Army's doctrine.
 
-Only a few of the Army's doctrinal publications are included in this repository. These are meant to serve as 
-examples to allow people who access this repository to run the code without having to convert all the Army's
-doctrinal pubs to .txt files themselves. However I have not included everything because many of these pubs
-are only accessible with Common Access Card (CAC) access to the Army Publishing Directorate (www.apd.army.mil) and I don't intend
-to be responsible for spilling those documents in an unsecured fashion all over the Internet.
+None of the Army's doctrinal publications are included in this repository. Anyone interested in actually recreating
+this project must either download all of the Army's current doctrine from the Army Publishing Directorate 
+(www.apd.army.mil) and convert them to .txt files or contact me for the .txt files. Not all of these publications are 
+available to users who cannot get Command Access Card (CAC) access to APD, however, and I will not distribute the .txt
+versions of these files to anyone who is not actually employed by DOD.
 
-The following files are included in this repository:
+I have included all the visualizations and most of the .csv files that were outputs of this code. Since I am not providing the 
+actual references you must use to run this code , I figure I am obliged to at least provide the final products.
+
+The following files are included in this repository (not including the .csv and .png files):
 
 final code.py: This code uses regular expressions to identify all references in each Army doctrinal publication
 to all other Army doctrinal publications. It then removes obselete references (of which there are many) and outputs
@@ -51,7 +54,4 @@ since 2012.
 
 word count.py: Calculates how long it would take an average reader to read all of the Army's doctrine. Interested parties
 should note that the total number of documents (331) that this code uses to make these calculations does not include a 
-significant number of classified or otherwise generally unavailable publications.
-
-I have also included all the visualizations and most of the .csv files that were outputs of this code. Since I am not providing the actual references that you must iterate over to run this code yourself, I figure I am obliged to at least provide the final products.
-            
+significant number of classified or otherwise generally unavailable publications.          
